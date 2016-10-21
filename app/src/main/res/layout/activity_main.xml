@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:background="#90A4AE">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:background="#607D8B"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp">
+
+            <TextView
+                android:text="ID"
+                android:layout_width="0dp"
+                android:textColor="#E0F7FA"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.205"
+                android:id="@+id/id"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.02"
+                android:background="#ff000000">
+                android:l
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/noreg"
+                android:layout_width="0dp"
+                android:textColor="#E0F7FA"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.427"
+                android:paddingLeft="5dp"
+                android:text="Noreg."
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.02"
+                android:background="#ff000000">
+                android:l
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/nama"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textColor="#E0F7FA"
+                android:layout_weight="0.8"
+                android:layout_alignBaseline="@+id/nama"
+                android:layout_toRightOf="@+id/nama"
+                android:text="Nama"
+                android:paddingLeft="5dp"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.02"
+                android:background="#ff000000">
+                android:l
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.990">
+
+                <TextView
+                    android:id="@+id/mail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#E0F7FA"
+                    android:text="Email"
+                    android:layout_weight="1"
+                    android:paddingLeft="5dp"
+                    android:paddingBottom="5dp"
+                    android:textAppearance="?android:textAppearanceSmall"/>
+
+                <TextView
+                    android:id="@+id/phone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Phone"
+                    android:layout_weight="1"
+                    android:paddingLeft="5dp"
+                    android:textColor="#E0F7FA"
+
+                    android:textAppearance="?android:textAppearanceSmall"/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
