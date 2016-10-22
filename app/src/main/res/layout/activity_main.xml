@@ -13,7 +13,7 @@
         android:layout_height="match_parent">
 
         <LinearLayout
-            android:background="#607D8B"
+
             android:orientation="horizontal"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -33,7 +33,7 @@
                 android:orientation="vertical"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:layout_weight="0.02"
+                android:layout_weight="0.005"
                 android:background="#ff000000">
                 android:l
             </LinearLayout>
@@ -53,7 +53,7 @@
                 android:orientation="vertical"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:layout_weight="0.02"
+                android:layout_weight="0.005"
                 android:background="#ff000000">
                 android:l
             </LinearLayout>
@@ -75,7 +75,7 @@
                 android:orientation="vertical"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:layout_weight="0.02"
+                android:layout_weight="0.005"
                 android:background="#ff000000">
                 android:l
             </LinearLayout>
